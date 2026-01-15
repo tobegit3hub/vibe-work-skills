@@ -1,0 +1,20 @@
+{
+  "name": "vibe-work-skills",
+  "owner": {
+    "name": "tobe",
+    "email": "tobeg3oogle@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude skills for vibe working.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "double-check-article",
+      "description": "The skill to double check the article.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./double-check-article"]
+    }
+  ]
+}
