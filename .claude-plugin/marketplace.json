@@ -10,11 +10,11 @@
   },
   "plugins": [
     {
-      "name": "double-check-article",
-      "description": "The skill to double check the article.",
+      "name": "content-check-plugin",
+      "description": "The plugin to check content..",
       "source": "./",
       "strict": false,
-      "skills": ["./double-check-article"]
+      "skills": ["./double-check-article", "./operation-content-check"]
     }
   ]
 }
